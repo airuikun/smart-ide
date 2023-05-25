@@ -1,0 +1,30 @@
+.btn_vscode {
+  width: 160px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 3px;
+  color: #86909c;
+  font-size: 16px;
+  border: 1px solid #86909c;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  transition: border 0.3s, color 0.3s, box-shadow 0.3s;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.btn_vscode:hover {
+  color: #1890ff;
+  border: 1px solid #1890ff;
+  /* box-shadow: 1px 1px 5px #1890ff; */
+}
+
+.icon_vscode {
+  margin-left: 6px;
+  font-weight: bold;
+}
+
+.icon_color {
+  color: #1890ff;
+}
