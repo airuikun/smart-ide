@@ -1,0 +1,17 @@
+{
+  "name": "traverse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.13.9",
+    "@babel/parser": "^7.13.13",
+    "@babel/traverse": "^7.13.13",
+    "babel-types": "^6.26.0"
+  }
+}

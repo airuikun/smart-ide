@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(30, 30, 30);
+  padding: 20px !important;
+  zoom: 0.7;
+}
+
+.display_none {
+  display: none;
+}

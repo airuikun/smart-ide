@@ -1,0 +1,76 @@
+{
+	"name": "leah-cli",
+	"description": "leah-cli",
+	"version": "0.0.11",
+	"publisher": "airuikun",
+	"private": true,
+	"icon": "media/tencentlogo1.png",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"engines": {
+		"vscode": "^1.78.1"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:leah.start"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "leah.start",
+				"title": "leah-cli",
+				"category": "leah-cli start"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "leah.start",
+				"key": "ctrl+l",
+				"mac": "cmd+l",
+				"when": "isLinux || isMac || isWindows"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"build": "vsce package",
+		"compile": "tsc -p ./",
+		"lint": "eslint . --ext .ts,.tsx",
+		"watch": "tsc -w -p ./"
+	},
+	"dependencies": {
+		"@babel/generator": "7.13.9",
+		"@babel/parser": "7.13.13",
+		"@babel/traverse": "7.13.13",
+		"@types/shelljs": "0.8.9",
+		"await-delay": "1.0.0",
+		"axios": "1.3.4",
+		"babel-types": "6.26.0",
+		"better-opn": "3.0.2",
+		"express": "4.17.3",
+		"fs-extra": "10.0.0",
+		"koa": "2.13.4",
+		"node-fetch": "3.3.1",
+		"shelljs": "0.8.4"
+	},
+	"devDependencies": {
+		"@types/babel__generator": "7.6.3",
+		"@types/babel__traverse": "7.14.2",
+		"@types/express": "4.17.13",
+		"@types/fs-extra": "9.0.13",
+		"@types/node": "12.12.0",
+		"@types/vscode": "^1.78.1",
+		"@types/vscode-webview": "1.57.0",
+		"@typescript-eslint/eslint-plugin": "4.16.0",
+		"@typescript-eslint/parser": "4.16.0",
+		"eslint": "7.21.0",
+		"typescript": "4.3.5",
+		"vsce": "2.10.0"
+	}
+}
