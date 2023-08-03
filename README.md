@@ -4,7 +4,7 @@
 
 在vscode插件中结合chatgpt能力，实现对开发代码的智能CR、智能单测、错误检测、添加类型、优化代码、添加注释、生成代码、解释代码、重构代码、生成文档、语言转化等功能，实现智能研发提效
 
-![image](https://new.inews.gtimg.com/tnews/1b5b6900/b18e/1b5b6900-b18e-4f15-b725-c09d04b0c3b1.png)
+![image](https://new.inews.gtimg.com/tnews/4188546c/5c00/4188546c-5c00-4ca1-8f4b-2e613b0d2832.png)
 
 # demo 体验
 
