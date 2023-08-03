@@ -27,7 +27,7 @@ git clone 项目
 
 即可成功唤起插件
 
-![image](https://new.inews.gtimg.com/tnews/1b5b6900/b18e/1b5b6900-b18e-4f15-b725-c09d04b0c3b1.png)
+![image](https://new.inews.gtimg.com/tnews/4188546c/5c00/4188546c-5c00-4ca1-8f4b-2e613b0d2832.png)
 
 
 # 界面开发
