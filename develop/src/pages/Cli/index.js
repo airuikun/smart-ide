@@ -15,7 +15,6 @@ function Cli() {
 
   return (
     <div className="Cli">
-      <CheckApiKeyCom/>
       <Collapse defaultActiveKey={["chatgpt"]} >
         <Panel header="智能研发" key="chatgpt">
           <div className='flex'>
@@ -38,6 +37,7 @@ function Cli() {
           </div>
         </Panel>
       </Collapse>
+      <CheckApiKeyCom/>
     </div>
   );
 }

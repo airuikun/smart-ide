@@ -19,10 +19,8 @@ function UnitTest(props) {
 
   const handleOk = async () => {
     const data = await form.validateFields();
-    console.log('表单提交数据', data.target);
     window.CHATGPT_API_KEY = data.target;
     localStorage.setItem('chatgpt_api_key', data.target);
-
     setVisible(false);
     form.resetFields();
   };
@@ -30,6 +28,14 @@ function UnitTest(props) {
   const handleCancel = () => {
     setVisible(false);
     form.resetFields();
+  };
+
+  const openModal = () => {
+    setVisible(true);
+    const apiKey = localStorage.getItem('chatgpt_api_key');
+    if (apiKey) {
+      form.setFieldsValue({target: apiKey});
+    }
   };
 
   return (
@@ -53,6 +59,7 @@ function UnitTest(props) {
           </Form.Item>
         </Form>
       </Modal>
+      <Button type="primary" className="btn_style" onClick={openModal}>更换key</Button>
     </div>
   );
 }

@@ -44,7 +44,7 @@ function UnitTest(props) {
       setData(result);
     } catch (error) {
       console.log('error', error);
-      message.error(`请输入正确格式的数据`)
+      message.error(`请检查api key是否有效，或者检查输入数据的正确性`)
     }
     setLoading(false);
   };

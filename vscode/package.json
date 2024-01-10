@@ -1,7 +1,7 @@
 {
 	"name": "leah-cli",
 	"description": "leah-cli",
-	"version": "0.0.11",
+	"version": "0.0.12",
 	"publisher": "airuikun",
 	"private": true,
 	"icon": "media/tencentlogo1.png",
